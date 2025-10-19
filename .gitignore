@@ -1,0 +1,25 @@
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Output files (plots, generated data)
+*.png
+*.csv
+*.log
+
+# VS Code workspace settings
+.vscode/
+
+# Temporary files created by editors
+*~ 
+*.swp
+*.swo
