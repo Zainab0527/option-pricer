@@ -1,5 +1,11 @@
 import math
+import time
+import numpy as np
 from scipy.stats import norm
+from scipy.optimize import minimize_scalar, brentq
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 def black_scholes_call(S, K, T, r, sigma):
     """
